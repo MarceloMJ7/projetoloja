@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.topNav {
+  background-color: #1d1b1b;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  padding-left: 14px;
+  align-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.compra {
+  padding-right: 16px;
+}
+
+.compra span {
+  color: white;
+}
+
+.sellcard {
+  float: left;
+  width: 23.4%;
+  margin: 10px;
+  text-align: center;
+}
+
+.sellcard img {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+/* Descrição do produto */
+.descricao {
+  text-align: center;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Valor do produto */
+.valor {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Botão de compra */
+.compra {
+  text-align: center;
+}
